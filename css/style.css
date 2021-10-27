@@ -1,1 +1,12 @@
 /* *** my styles *** */
+
+/* *** header *** */
+header .my_header-top {
+    height: 50px;
+    background-color: black;
+}
+
+header .my_header-bottom {
+    height: 80px;
+    background-color: white;
+}
