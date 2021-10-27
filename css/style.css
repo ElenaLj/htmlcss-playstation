@@ -10,3 +10,9 @@ header .my_header-bottom {
     height: 80px;
     background-color: white;
 }
+
+/* *** debug *** */
+.debug .jumbo {
+    height: 500px;
+    background-color: lightgrey;
+}
