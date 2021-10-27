@@ -28,11 +28,20 @@ main .blu {
     background-color: #161c3b;
 }
 
+/* *** footer *** */
+footer {
+    background-color: #00439c;
+}
+
 /* *** media query *** */
 @media screen and (min-width: 768px) {
     main .image-block img {
         display: flex;
         width: 100%;
+    }
+
+    footer .link {
+        display: flex;
     }
 } 
 
@@ -50,4 +59,11 @@ main .blu {
 
 .debug .game {
     background-color: mediumaquamarine;
+}
+
+.debug .links {
+    height: 20px;
+    width: 50%;
+    background-color: lightslategrey;
+    border: 1px solid white;
 }
