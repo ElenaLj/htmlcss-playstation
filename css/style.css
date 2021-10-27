@@ -21,6 +21,20 @@ header .my_header-bottom {
     width: 25px;
 }
 
+/* *** jumbo *** */
+.jumbo  {
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbo .my_red-btn {
+    color: white;
+    background-color: #cd3d0f;
+}
+
 /* *** main *** */
 main .new-game {    
     background-color: #1f1f1f;
@@ -56,10 +70,9 @@ footer {
 } 
 
 /* *** debug *** */
-.debug .jumbo {
-    height: 500px;
+/* .debug .jumbo {
     background-color: lightgrey;
-}
+} */
 
 .debug .my_box {
     height: 80px;
