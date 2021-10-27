@@ -11,6 +11,11 @@ header .my_header-bottom {
     background-color: white;
 }
 
+/* *** main *** */
+main .new-game {    
+    background-color: #1f1f1f;
+}
+
 /* *** debug *** */
 .debug .jumbo {
     height: 500px;
