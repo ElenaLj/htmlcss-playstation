@@ -11,6 +11,16 @@ header .my_header-bottom {
     background-color: white;
 }
 
+/* *** navbar *** */
+
+.my_rounded {
+    border-radius: 1.2rem;
+}
+
+.my_w-25 {
+    width: 25px;
+}
+
 /* *** main *** */
 main .new-game {    
     background-color: #1f1f1f;

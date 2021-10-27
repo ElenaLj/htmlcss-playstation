@@ -14,11 +14,42 @@
     <header>
         <div class="container-fluid">
             <!-- header top -->
-            <div class="my_header-top"></div>
+            <div class="my_header-top d-flex justify-content-end">
+                <img src="img/sony_logo.svg" class="h-100 p-3" alt="Sony logo">
+            </div>
             <!-- /header top -->
 
             <!-- header bottom -->
-            <div class="my_header-bottom"></div>
+            <div class="my_header-bottom">
+                <nav class="navbar navbar-expand-xxl navbar-light bg-white">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/play_logo.svg" alt="Playstation logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                      <!-- nav a sinistra -->
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Giochi</a>
+                        <a class="nav-item nav-link" href="#">Hardware</a>
+                        <a class="nav-item nav-link" href="#">Servizi</a>
+                        <a class="nav-item nav-link" href="#">Novit&agrave;</a>
+                        <a class="nav-item nav-link" href="#">Fai acquisti</a>
+                        <a class="nav-item nav-link" href="#">Support</a>
+                      </div>
+                      <!-- /nav a sinistra -->
+
+                      <!-- nav a destra -->
+                      <div class="navbar-nav align-items-center">
+                        <a class="nav-item nav-link mx-1" href="#">My Playstation</a>
+                        <button type="button" class="btn btn-dark mx-1 my_rounded">Accedi</button>
+                        <img src="img/lens.svg" class="mx-1 my_w-25" alt="lens">
+                      </div>
+                      <!-- nav a destra -->
+                    </div>
+                  </nav>
+            </div>
             <!-- /header bottom -->
         </div>
     </header>
