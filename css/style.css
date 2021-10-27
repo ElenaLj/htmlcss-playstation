@@ -16,3 +16,9 @@ header .my_header-bottom {
     height: 500px;
     background-color: lightgrey;
 }
+
+.debug .my_box {
+    height: 80px;
+    background-color: lightskyblue;
+    border:  1px solid black;
+}
