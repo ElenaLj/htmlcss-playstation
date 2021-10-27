@@ -16,6 +16,22 @@ main .new-game {
     background-color: #1f1f1f;
 }
 
+main .gray  {
+    background-color: #bebcbb;
+}
+
+#image-block img {
+    display: none;
+}
+
+/* *** media query *** */
+@media screen and (min-width: 768px) {
+    main .gray #image-block img {
+        display: flex;
+        width: 100%;
+    }
+} 
+
 /* *** debug *** */
 .debug .jumbo {
     height: 500px;
