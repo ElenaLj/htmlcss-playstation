@@ -22,3 +22,7 @@ header .my_header-bottom {
     background-color: lightskyblue;
     border:  1px solid black;
 }
+
+.debug .game {
+    background-color: mediumaquamarine;
+}
