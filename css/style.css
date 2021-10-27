@@ -20,13 +20,17 @@ main .gray  {
     background-color: #bebcbb;
 }
 
-#image-block img {
+.image-block img {
     display: none;
+}
+
+main .blu {
+    background-color: #161c3b;
 }
 
 /* *** media query *** */
 @media screen and (min-width: 768px) {
-    main .gray #image-block img {
+    main .image-block img {
         display: flex;
         width: 100%;
     }
