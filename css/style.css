@@ -30,7 +30,7 @@ header .my_header-bottom {
     background-repeat: no-repeat;
 }
 
-.jumbo .my_red-btn {
+.my_red-btn {
     color: white;
     background-color: #cd3d0f;
 }
@@ -54,6 +54,14 @@ main .blu {
 
 main .hide {
     display: none;
+}
+
+.game_it-takes-two  {
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: 35% 75%;
+    background-repeat: no-repeat;
 }
 
 /* *** footer *** */
