@@ -52,6 +52,10 @@ main .blu {
     background-color: #161c3b;
 }
 
+main .hide {
+    display: none;
+}
+
 /* *** footer *** */
 footer {
     background-color: #00439c;
@@ -62,6 +66,11 @@ footer {
     main .image-block img {
         display: flex;
         width: 100%;
+    }
+
+    main .hide {
+        display: inline-block;
+        margin: 10px 0;
     }
 
     footer .link {
