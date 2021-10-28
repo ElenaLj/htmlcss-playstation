@@ -1,4 +1,18 @@
-/* *** my styles *** */
+/* ************ my styles ************ */
+
+/* *** commons *** */
+
+.my_rounded {
+    border-radius: 1.2rem;
+}
+
+.my_w-25 {
+    width: 25px;
+}
+
+.my_py {
+    padding: 1.25rem 0;
+}
 
 /* *** header *** */
 header .my_header-top {
@@ -9,16 +23,6 @@ header .my_header-top {
 header .my_header-bottom {
     height: 80px;
     background-color: white;
-}
-
-/* *** navbar *** */
-
-.my_rounded {
-    border-radius: 1.2rem;
-}
-
-.my_w-25 {
-    width: 25px;
 }
 
 /* *** jumbo *** */
@@ -71,14 +75,16 @@ footer {
 
 /* *** media query *** */
 @media screen and (min-width: 0) {
-    main .gray {
+    main .gray,
+    main .blu {
         padding: 5rem 1rem;
     }
 }
 
 @media screen and (min-width: 768px) {
 
-    main .gray {
+    main .gray,
+    main .blu {
         padding: 0 2rem;
     }
     main .image-block img {
