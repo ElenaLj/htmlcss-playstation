@@ -20,7 +20,7 @@
 
 .my_fs {
     font-size: .75rem;
-} 
+}
 /* *** header *** */
 header .my_header-top {
     height: 50px;
@@ -30,6 +30,20 @@ header .my_header-top {
 header .my_header-bottom {
     height: 80px;
     background-color: white;
+}
+
+/* *** dropdown *** */
+.my_dropdown {
+    position: relative;
+}
+
+.my_dropdown-content {
+    position: absolute;
+    display: none;
+}
+
+.my_dropdown:active .my_dropdown-content {
+    display: block;
 }
 
 /* *** jumbo *** */
@@ -47,7 +61,7 @@ header .my_header-bottom {
 }
 
 /* *** main *** */
-main .new-game {    
+main .new-game {
     background-color: #1f1f1f;
 }
 
@@ -130,14 +144,14 @@ footer a:hover {
         display: flex;
         /* justify-content: space-between; */
     }
-} 
+}
 
 /* *** debug *** */
 /* .debug .jumbo {
     background-color: lightgrey;
 } */
 
-.debug .my_box {
+/* .debug .my_box {
     height: 80px;
     background-color: lightskyblue;
     border:  1px solid black;
@@ -145,5 +159,5 @@ footer a:hover {
 
 .debug .game {
     background-color: mediumaquamarine;
-}
+} */
 
