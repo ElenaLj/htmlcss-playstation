@@ -76,6 +76,19 @@ header .my_header-bottom {
     background-color: #cd3d0f;
 }
 
+/* *** transizione cards *** */
+.my_card {
+    transition: all .5s;
+}
+
+.my_card:hover {
+    border: 1px solid #0070d1;
+    background-color: white;
+    transform: translate(0, -50px);
+    padding: 5px;
+    cursor: pointer;
+}
+
 /* *** main *** */
 main .new-game {
     background-color: #1f1f1f;
