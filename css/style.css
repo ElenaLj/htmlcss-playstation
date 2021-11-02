@@ -121,7 +121,7 @@ footer #my_registered {
 }
 
 ul li:hover {
-    color: #5394d3;
+    color: #0070d1;
     cursor: pointer;
 }
 
@@ -130,7 +130,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #5394d3;
+    color: #0070d1;
 }
 /* *** media query *** */
 @media screen and (min-width: 0) {
